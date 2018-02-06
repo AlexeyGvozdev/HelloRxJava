@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FirstLesson"></activity>
+        <activity android:name=".lessonsactivity.FirstLesson" />
+        <activity android:name=".lessonsactivity.SecondLesson"></activity>
     </application>
 
 </manifest>

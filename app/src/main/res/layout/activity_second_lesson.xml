@@ -4,11 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.alexey.hellorxjava.lessonsactivity.FirstLesson">
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="First Lessons"/>
+    tools:context="com.example.alexey.hellorxjava.lessonsactivity.SecondLesson">
 
 </android.support.constraint.ConstraintLayout>

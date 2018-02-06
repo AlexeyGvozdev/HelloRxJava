@@ -1,8 +1,9 @@
-package com.example.alexey.hellorxjava
+package com.example.alexey.hellorxjava.lessonsactivity
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import com.example.alexey.hellorxjava.R
 import io.reactivex.Observable
 import io.reactivex.Observer
 import io.reactivex.disposables.Disposable
@@ -37,7 +38,9 @@ class FirstLesson : AppCompatActivity() {
         observable.subscribe(observer)
     }
 
-    private fun log(str: String) {
-        Log.d("My Tag", str)
+    companion object {
+        fun log(str: String) {
+            Log.d("My Tag", str)
+        }
     }
 }
