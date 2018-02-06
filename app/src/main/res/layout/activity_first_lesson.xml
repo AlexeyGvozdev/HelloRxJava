@@ -4,13 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.alexey.hellorxjava.MainActivity">
+    tools:context="com.example.alexey.hellorxjava.FirstLesson">
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/recycler_view"
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        />
-
+        android:layout_height="wrap_content"
+        android:text="First Lessons"/>
 
 </android.support.constraint.ConstraintLayout>
