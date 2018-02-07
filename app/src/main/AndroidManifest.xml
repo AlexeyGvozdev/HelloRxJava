@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".lessonsactivity.FirstLesson" />
-        <activity android:name=".lessonsactivity.SecondLesson"></activity>
+        <activity android:name=".lessonsactivity.SecondLesson" />
+        <activity android:name=".lessonsactivity.ThirdLesson"></activity>
     </application>
 
 </manifest>
