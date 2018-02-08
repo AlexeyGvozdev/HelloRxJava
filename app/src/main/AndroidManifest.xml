@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".lessonsactivity.FirstLesson" />
         <activity android:name=".lessonsactivity.SecondLesson" />
-        <activity android:name=".lessonsactivity.ThirdLesson"></activity>
+        <activity android:name=".lessonsactivity.ThirdLesson" />
+        <activity android:name=".lessonsactivity.FourthLesson"></activity>
     </application>
 
 </manifest>

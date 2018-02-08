@@ -32,6 +32,7 @@ class ThirdLesson : AppCompatActivity() {
         val subscription: Disposable = observable.subscribe({ it -> log("onNext ${it}")})
         window.decorView.postDelayed({
             log("unsubscribe")
-            subscription.dispose()},4500)
+            subscription.dispose()
+        },4500)
     }
 }

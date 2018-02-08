@@ -2,6 +2,7 @@ package com.example.alexey.hellorxjava
 
 import android.support.v7.app.AppCompatActivity
 import com.example.alexey.hellorxjava.lessonsactivity.FirstLesson
+import com.example.alexey.hellorxjava.lessonsactivity.FourthLesson
 import com.example.alexey.hellorxjava.lessonsactivity.SecondLesson
 import com.example.alexey.hellorxjava.lessonsactivity.ThirdLesson
 
@@ -10,8 +11,8 @@ import com.example.alexey.hellorxjava.lessonsactivity.ThirdLesson
  */
 class Lessons {
     companion object {
-        val lessons: List<String> = listOf("First lesson", "Second lesson", "Third lesson")
-        val activities: Array<AppCompatActivity> = arrayOf(FirstLesson(), SecondLesson(), ThirdLesson())
+        val lessons: List<String> = listOf("First lesson", "Second lesson", "Third lesson", "Fourth lesson")
+        val activities: Array<AppCompatActivity> = arrayOf(FirstLesson(), SecondLesson(), ThirdLesson(), FourthLesson())
     }
 
 }
